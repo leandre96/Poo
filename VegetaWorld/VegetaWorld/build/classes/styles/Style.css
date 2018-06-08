@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/08/2017, 21:44:36
+    Author     : RS
+*/
+
+.root{
+    -fx-background-color: #A9E2F3;
+}
+
+#addPlayer{
+    -fx-text-fill: green;
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-font-size: 18pt;
+}
+
+#addPlayer:hover {
+    -fx-text-fill: brown;
+}
+
+#bAdd{
+    -fx-text-fill: green;
+    -fx-font-size: 10pt;
+}
+
+#bAdd:hover {
+    -fx-text-fill: brown;
+}
+
+#player{
+    -fx-text-fill: green;
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-font: 16px "Courier";
+    
+}
+
+#player:hover{
+    -fx-text-fill: brown;
+}
+
+#lTitulo{
+    -fx-font: 30px "Arial";
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow(gaussian, rgba(255,255,255,0.5), 0, 0, 0, 1);
+}
+
+.label{
+    -fx-font: 20px "Arial";
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow(gaussian, rgba(255,255,255,0.5), 0, 0, 0, 1);
+}
+lPuntaje{
+    -fx-font: 30px "Arial";
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow(gaussian, rgba(255,255,255,0.5), 0, 0, 0, 1);
+}
+
+#bPlay{
+    -fx-text-fill: green;
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-font-size: 18pt;
+}
+#bRanking{
+    -fx-text-fill: red;
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-font-size: 14pt;
+}
+
+#bPlay:hover{
+    -fx-text-fill: brown;
+}
+#bRanking:hover{
+    -fx-text-fill: brown;
+}
+
+#bNickName{
+    -fx-text-fill: green;
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-font-size: 14pt;
+}
+
+#bNickName:hover{
+    -fx-text-fill: brown;
+}
